@@ -4,32 +4,49 @@ exports[`renders a snapshot 1`] = `
 <div
   className="App"
 >
-  <header
-    className="App-header"
+  <div
+    class="card border-0"
+    className="card"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
-    </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
+    <div
+      class="card border-0"
+      className="card"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
     >
-      Learn React
-    </a>
-    <h5>
-       Testing snapshot
-    </h5>
-  </header>
+      <img
+        className="card-img-top"
+        src="v_castaneda.jpeg"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Victor Castañeda
+        </div>
+        <p
+          className="card-text"
+        >
+          I am budding code developer who likes to travel, workout, and dabble in woodworking. I live in NJ with my wife, Jenally, and three kids, Noah, Leah, and Joel.
+        </p>
+        <a
+          className="btn btn-primary"
+          disabled={false}
+          href="https://www.linkedin.com/in/victor-castaneda-68942875/"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 `;
